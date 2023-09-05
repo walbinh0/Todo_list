@@ -9,14 +9,14 @@ Uma lista de "Todos", tendo como finalidade colocar conhecimento em JS, BDD e Cy
 
 ## Authors
 
-- [Bruna Targino](https://www.github.com/targ1no)
+- [Walbert Chaves](https://github.com/walbinh0)
 
 
 ## Deployment
 
 Para depoloyar esse projeto, copie o link abaixo e cole na barra de url do browser:
 
-- [Todo List](https://targ1no.github.io/todo-list/)
+- [Todo List](https://github.com/walbinh0/todo_list)
 
 
 ## Demo Application
