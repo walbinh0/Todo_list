@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/targ1no/todo-list.git"
+    "url": "git+https://github.com/walbinh0/todo_list"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/targ1no/todo-list/issues"
+    "url": "https://github.com/walbinh0/todo_list/issues"
   },
-  "homepage": "https://github.com/targ1no/todo-list#readme",
+  "homepage": "https://github.com/walbinh0/todo_list#readme",
   "devDependencies": {
     "cypress": "^10.8.0"
   }
