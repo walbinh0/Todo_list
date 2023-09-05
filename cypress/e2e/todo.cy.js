@@ -1,6 +1,6 @@
 /* todo.cy.js */
 
-describe('Fluxo Todo List', () => {
+describe('Fluxo Todo List', () => { 
 
   beforeEach(() => {
     // visit
