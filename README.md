@@ -36,7 +36,7 @@ Para depoloyar esse projeto, copie o link abaixo e cole na barra de url do brows
 Faça o clone do projeto
 
 ```bash
-  git clone https://github.com/targ1no/dio-bootcamps/tree/main/toDoList
+  git clone https://github.com/walbinh0/todo_list.git
 ```
 
 Vá para o diretório dele
