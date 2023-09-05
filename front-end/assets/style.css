@@ -1,0 +1,134 @@
+@keyframes example {
+    from {background-color: #276caa;}
+    to {background-color: #020024;}
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #FFF;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h1 {
+    font-size: 102px;
+}
+
+#input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#input:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#addButton {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #276caa;
+}
+
+#addButton:hover, #clearButton:hover {
+    background: none;
+    color: #FFF;
+    transition: 0.2s;
+}
+
+#clearButton {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button {
+    width: 14px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+main > form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main > form > span > ul {
+    margin-top: 25px;
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+main > form > span > ul li  {
+    width: 300px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    color: rgb(55, 55, 55);
+    background-color: #FFF;
+    margin: 6px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.checkbox:checked + .item{
+    text-decoration: line-through;
+}
+
+.deleteItem {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 267px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(202, 28, 28);
+}
+
+.deleteItem:hover {
+    background-color: rgb(202, 28, 28);
+    color: white;
+}
+
+.checkbox {
+    width: 19.8px;
+    height: 19.8px;
+    position: relative;
+    left: 270px;
+    top: 5.5px;
+    cursor: pointer;
+}
+
+.item {
+    font-weight: bolder;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Uma lista de \"ToDos\", tendo como finalidade colocar conhecimento em JS na prática.",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targ1no/todo-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/targ1no/todo-list/issues"
+  },
+  "homepage": "https://github.com/targ1no/todo-list#readme",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  }
+}

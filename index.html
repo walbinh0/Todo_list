@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="front-end/assets/style.css">
+    <title>To do List</title>
+</head>
+<body>
+
+    <main>
+        <form id="form">
+            <h1>List</h1>
+            <label>
+                <input id="input" type="text" placeholder="Type an item...">
+                <input id="addButton" type="button" value="Add" onclick="addItem()">
+                <input id="clearButton" type="button" value="Clear" onclick="clearInput()">
+            </label>
+            <span>
+                <ul id="list">
+                </ul>
+            </span>
+        </form>
+    </main>
+
+    <script src="front-end/assets/script.js"></script>
+</body>
+</html>
