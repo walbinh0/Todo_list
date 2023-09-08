@@ -8,7 +8,7 @@ describe('Fluxo Todo List', () => {
 
   context('Verificando botão de limpar texto no input', () => {
     it('Dado que o usuário acessa a página da aplicação', () => {
-      cy.visit('https://targ1no.github.io/todo-list/')
+      cy.visit('https://github.com/walbinh0/todo_list')
     });
 
     it('E digita um item no input', () => {
@@ -29,7 +29,7 @@ describe('Fluxo Todo List', () => {
 
   context('Verificando botão para adicionar um novo Todo', () => {
     it('Dado que o usuário acessa a página da aplicação', () => {
-      cy.visit('https://targ1no.github.io/todo-list/')
+      cy.visit('https://github.com/walbinh0/todo_list')
     });
 
     it('E digita um item no input', () => {
@@ -50,7 +50,7 @@ describe('Fluxo Todo List', () => {
 
   context('Verificando checkbox para marcar Todo como feito', () => {
     it('Dado que o usuário acessa a página da aplicação', () => {
-      cy.visit('https://targ1no.github.io/todo-list/')
+      cy.visit('https://github.com/walbinh0/todo_list')
     });
 
     it('E digita um item no input', () => {
@@ -80,7 +80,7 @@ describe('Fluxo Todo List', () => {
 
   context('Verificando botão para deletar Todo', () => {
     it('Dado que o usuário acessa a página da aplicação', () => {
-      cy.visit('https://targ1no.github.io/todo-list/')
+      cy.visit('https://github.com/walbinh0/todo_list')
     });
 
     it('E digita um item no input', () => {
